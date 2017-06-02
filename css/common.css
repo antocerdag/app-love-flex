@@ -14,3 +14,22 @@
 .text-uppercase {
   text-transform: uppercase;
 }
+
+.link{
+	font-weight: 700;
+	padding: 21px;
+	display: inline-block;
+}
+
+.flex-container{
+	display: flex;
+}
+
+a{
+ color: #373B47 ;
+ text-decoration: none;
+}
+
+a:hover{
+ color: #E95853 ;
+}

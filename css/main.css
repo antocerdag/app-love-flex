@@ -1,7 +1,94 @@
+
+*{
+	font-family: 'Open Sans', sans-serif;
+}
+
 body {
   margin: 0 auto;
   font-size: 16px;
   line-height: 1.71429;
   background-color: #fff;
   /* Enlaza la tipografia Open Sans */
+}
+
+.menu{
+	background-color: white;
+	position: fixed;
+	top: 0;
+	left:0;
+	width: 100%;
+}
+
+.menu.flex-container{
+	justify-content: flex-start;
+}
+
+.logo-container{
+	margin-left: auto;
+	margin-right: 20px;
+}
+
+.flex-container .logo{
+	width: 70px;
+	height: 70px;
+}
+
+/* HOME */
+
+#home{
+	height: 600px;
+	margin-top: 70px;
+
+	background-image: url(../assets/images/bg-home.jpg);
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+
+	color: whitesmoke;
+}
+
+.text-home{
+	font-size: 2.4em;
+}
+
+.btn-home{
+    background-color: rgb(46, 204, 113);
+    font-size: 18px;
+    padding: 11px 20px;
+    border-radius: 5px;
+    width: 9%;
+    text-align: center;
+    color: white;
+}
+
+#services{
+	background-color: #F17C72;
+	text-align: center;
+	color: #fff;
+	padding: 70px;
+}
+
+#services.flex-container{
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+
+#box-services{
+	font-size: 1.2em;
+	font-weight: bold;
+}
+
+footer{
+	background-color: #373B47;
+	text-align: center;
+	color: #fff;
+
+	justify-content: center;
+	align-items: center;
+	padding: 70px;
 }

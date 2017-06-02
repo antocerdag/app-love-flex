@@ -82,12 +82,53 @@ body {
 	font-size: 1.2em;
 	font-weight: bold;
 }
+/*WORK*/
 
+.work{
+	width: 100%;
+    height: 2120px;
+}
+
+.hero{
+	background-image: url(../assets/images/hero.png);
+	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+  	text-align: center;
+  	height: 1224px;
+  	margin-bottom: 40px;
+  	margin-top: 60px;
+}
+
+#container{
+	text-align: center;
+}
+
+#container-fotos{
+	text-align: center;
+	display: flex;
+	width: 100%;
+	align-items:center;
+	justify-content: space-around;
+}
+#container-fotos img{
+	width: 22%;
+	margin-top: 10px;
+}
+
+#container-texto{
+	text-align: center;
+	display: flex;
+	width: 100%;
+	align-items:center;
+	justify-content: space-around;
+}
+/*FOOTER*/
 footer{
 	background-color: #373B47;
 	text-align: center;
 	color: #fff;
-
+	height: 0px;
 	justify-content: center;
 	align-items: center;
 	padding: 70px;
